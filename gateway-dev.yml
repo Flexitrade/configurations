@@ -49,6 +49,8 @@ spring:
     # Remove 'faker' if you do not want the sample data to be loaded automatically
     contexts: dev, faker
     url: jdbc:postgresql://localhost:5432/gateway
+    username: gateway
+    password:
   mail:
     host: localhost
     port: 25
